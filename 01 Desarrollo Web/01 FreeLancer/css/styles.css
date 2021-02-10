@@ -1,0 +1,36 @@
+/* pseudo selectores */
+
+:root {
+    --blanco: #fff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secunario: #0097a7;
+    --gris: #757575;
+    /* fuentes */
+    --fuente-principal: 3.8rem;
+}
+
+/* pseudo selectores */
+
+/* mejoras rem */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+}
+
+/* mejoras rem */
+
+.titulo {
+    text-align: center;
+    /* uso de variables */
+    font-size: var(--fuente-principal);
+    /* color: var(--primario); */
+}
+
+.titulo span {
+    font-size: 2rem;
+}
