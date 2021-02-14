@@ -1,5 +1,5 @@
 /* pseudo selectores */
-
+/* variables globales */
 :root {
     --blanco: #fff;
     --oscuro: #212121;
@@ -7,7 +7,7 @@
     --secunario: #0097a7;
     --gris: #757575;
     /* fuentes */
-    --fuente-principal: 3.8rem;
+    --fuente-principal: 1.8rem;
 }
 
 /* pseudo selectores */
@@ -16,10 +16,12 @@
 
 html {
     font-size: 62.5%;
+    /*1 rem= 10px*/
 }
 
 body {
     font-size: 16px;
+    font-family: 'Krub', sans-serif;
 }
 
 /* mejoras rem */
@@ -28,7 +30,9 @@ body {
     text-align: center;
     /* uso de variables */
     font-size: var(--fuente-principal);
+    /* font-size: 3.8 rem; */
     /* color: var(--primario); */
+    font-weight: normal;
 }
 
 .titulo span {
