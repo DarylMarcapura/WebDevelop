@@ -1,5 +1,7 @@
 /* pseudo selectores */
+
 /* variables globales */
+
 :root {
     --blanco: #fff;
     --oscuro: #212121;
@@ -37,4 +39,35 @@ body {
 
 .titulo span {
     font-size: 2rem;
+}
+
+.contenedor {
+    width: 120rem;
+    /* margin-top: 0rem;
+    margin-right: auto;
+    margin-bottom: 0rem;
+    margin-left: auto; */
+    margin: 0 auto;
+}
+
+.nav-bg {
+    /* uso de variables */
+    background-color: var(--secunario);
+}
+
+.navegacion-principal {
+    /* engorda desde donde termina el elemento hacia adentro */
+    padding: 1rem;
+    /* activar flexbox */
+    display: flex;
+    /* default */
+    flex-direction: row;
+    /* mover contenido horizontalmente */
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    color: var(--blanco);
+    /* quitar la decoracion de los links */
+    text-decoration: none;
 }
