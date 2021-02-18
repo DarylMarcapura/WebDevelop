@@ -56,8 +56,6 @@ body {
 }
 
 .navegacion-principal {
-    /* engorda desde donde termina el elemento hacia adentro */
-    padding: 1rem;
     /* activar flexbox */
     display: flex;
     /* default */
@@ -70,4 +68,15 @@ body {
     color: var(--blanco);
     /* quitar la decoracion de los links */
     text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    /* engorda desde donde termina el elemento hacia adentro */
+    padding: 1rem;
+}
+
+/* pseudo clases */
+/* eventos de css */
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
 }
